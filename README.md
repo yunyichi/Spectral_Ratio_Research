@@ -1,0 +1,1 @@
+# Spectral_Ratio_Research
