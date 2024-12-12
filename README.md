@@ -28,4 +28,4 @@ Applying these spectral ratios to gamma correction improved image contrast, brig
 - **Demo 1**: Easy task with clear shadow boundaries (e.g., block building).
 - **Demo 2**: Hard task with scattered shadows (e.g., green plant).
 
-To run the demos, download the "Demo" folder, open Demo_1 or Demo_2, and run `SRGammaCorrection.py`.
+To run the demos, download the `Demos` folder, open `Demo_1` or `Demo_2` folder, and run `SRGammaCorrection.py`.
