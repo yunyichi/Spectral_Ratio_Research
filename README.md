@@ -6,20 +6,16 @@ Natural scenes are illuminated by direct light (e.g., sunlight) and ambient ligh
 ## Dataset
 We used a custom dataset of 4,097 raw images, annotating lit and shadowed regions for the same materials. Spectral ratios were calculated and transformed into linear and log spaces.
 
-Link to the dataset: [Add link here]
-
 ## Models
-We trained two convolutional neural networks (CNNs): a custom CNN and another using transfer learning from GoogleNet. The best model achieved a test angular error of 3.32°, demonstrating its effectiveness in spectral estimation.
+We trained two convolutional neural networks (CNNs): a custom CNN and another using transfer learning from GoogleNet.
 
 ### Custom CNN
-- Folder: [Specify folder]
-- File: [Specify file]
-- How to run: [Provide instructions]
+- Folder: `CNN`
+- How to run: download files from `CNN` folder, run `DeepLearningModel.py` with parameters for training, and run `test_script.py` for testing.
 
 ### GoogLeNet
-- Folder: [Specify folder]
-- File: [Specify file]
-- How to run: [Provide instructions]
+- Folder: `Pretrained_GoogleNet`
+- How to run: download files from `Pretrained_GoogleNet` folder, run `DeepLearningModel.py` with parameters for training, and run `test_script.py` for testing.
 
 ## Applications
 Applying these spectral ratios to gamma correction improved image contrast, brightened shadows, and enhanced color vibrancy. Our app restores details in shadowed areas and enhances color contrast, outperforming basic gamma correction, even in complex scenes with scattered shadows.
